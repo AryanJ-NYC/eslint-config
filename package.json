@@ -1,0 +1,23 @@
+{
+  "name": "@aryanjabbari/eslint-config",
+  "version": "0.1.0",
+  "description": "TypeScript ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Jabbari",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}
