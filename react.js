@@ -1,15 +1,5 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
-    'plugin:import/typescript',
-    'prettier',
-    'prettier/@typescript-eslint',
-    './index',
-  ],
+  extends: ['plugin:react/recommended', './index'],
   plugins: ['react-hooks'],
   rules: {
     'react/prop-types': 'off',
