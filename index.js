@@ -26,8 +26,9 @@ module.exports = {
       },
     ],
     'no-shadow': 'error',
-    '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
+    '@typescript-eslint/ban-ts-comment': ['error', { 'ts-expect-error': false }],
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
   },
 };
