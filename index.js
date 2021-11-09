@@ -15,6 +15,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'object-shorthand': 'error',
+    'import/namespace': 'off',
     'import/order': [
       'error',
       {
