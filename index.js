@@ -1,7 +1,5 @@
 module.exports = {
-  globals: {
-    process: true,
-  },
+  globals: { process: true },
   env: { es6: true, jest: true, node: true },
   parser: '@typescript-eslint/parser',
   extends: [
@@ -16,19 +14,12 @@ module.exports = {
   rules: {
     'object-shorthand': 'error',
     'import/namespace': 'off',
-    'import/order': [
-      'error',
-      {
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
-      },
-    ],
+    'import/order': ['error', { alphabetize: { order: 'asc', caseInsensitive: true } }],
     'no-shadow': 'error',
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-expect-error': false }],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-use-before-define': 'off',
   },
 };
